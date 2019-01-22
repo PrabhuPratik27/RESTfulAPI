@@ -65,6 +65,8 @@ var server = http.createServer(function(req,res){
 
             //Return the response
 
+            res.setHeader('Content-Type','application/json');
+
             res.writeHead(statusCode);
 
             console.log("The data sent is : ",statusCode,payloadString);
