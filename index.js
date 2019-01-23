@@ -10,7 +10,6 @@ const StringDecoder = require('string_decoder').StringDecoder;
 const config = require('./config');
 const fs = require('fs');
 
-
 //Instatiating the http server
 
 var httpserver = http.createServer(function(req,res){
