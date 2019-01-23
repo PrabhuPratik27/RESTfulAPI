@@ -119,7 +119,7 @@ handlers.notFound = function (data,callback) {
 
 handlers.ping = function(data,callback){
     callback(200);
-}
+};
 
 //Create a request router
 
