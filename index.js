@@ -12,8 +12,8 @@ const fs = require('fs');
 const handlers = require('./lib/handlers');
 const helpers = require('./lib/helpers');
 
-helpers.sendTwiliosms('4151234567','Hello',function(err){
-    console.log('This wass the error',err);
+helpers.sendTwiliosms('4158375309','Hello',function(err){
+    console.log('This was the error',err);
     
 })
 
